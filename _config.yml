@@ -6,11 +6,10 @@ gems: [jekyll-paginate]
 paginate: 100
 paginate_path: "page:num"
 name: 《如何阅读一本书》资源汇聚站
-description: 飘过的小牛 | Stop talking, start doing.
+description: 共读《如何阅读一本书》活动是由幸福进化俱乐部发起的经典领读活动，本站为活动的信息汇总站
 author: 易仁永澄@幸福进化俱乐部
-email: hnns1990@gmail.com
-duoshuo: niushuai
-weibo: 1891858481
-hub: niushuai
+email: howtoreadabook@runwith.cc
+duoshuo: htrab
+hub: howtoreadabook
 safe: false
-about: "弱菜一枚。"
+about: "和经典邂逅"
