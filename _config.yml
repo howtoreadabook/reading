@@ -1,13 +1,13 @@
 markdown: rdiscount
 permalink: /:title/
-url: http://github.thinkingbar.com
+url: http://htrab.com
 highlighter: pygments
 gems: [jekyll-paginate]
 paginate: 100
 paginate_path: "page:num"
-name: 飘过的小牛
+name: 《如何阅读一本书》资源汇聚站
 description: 飘过的小牛 | Stop talking, start doing.
-author: niushuai
+author: 易仁永澄@幸福进化俱乐部
 email: hnns1990@gmail.com
 duoshuo: niushuai
 weibo: 1891858481
