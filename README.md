@@ -1,9 +1,10 @@
-###[飘过的小牛](http://github.thinkingbar.com)
+## 如何阅读一本书资源汇聚站
 
----
+- 域名：http://htrab.com
+- 主办方：幸福进化俱乐部
+- 制作者：易仁永澄及本活动团队成员
+- 本博客Fork自[飘过的小牛](http://github.thinkingbar.com)，运行于 [Jekyll](http://jekyllrb.com) @ [GitHub](http://github.com/howtoreadabook/reading)。
 
-本博客运行于 [Jekyll](http://jekyllrb.com) @ [GitHub](http://github.com/niushuai/reading)，博客模板修改自 [WebFrog](http://webfrogs.me/) 的博客。
+by 易仁永澄
 
-飘过的小牛
-
-2014-03-20
+2016年02月14日
