@@ -1,14 +1,39 @@
 ---
-title: 关于
+title: 资源
 layout: page
-comments: no
 ---
 
-### 网站说明
+<div id='tag_cloud'>
+{% for cat in site.categories %}
+<a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a>
+{% endfor %}
+</div>
 
-* 幸福进化俱乐部发起的经典领读活动——共读《如何阅读一本书》的资源汇聚站
-* 这里包含易仁永澄老师的阅读领读、脑图、文字以及活动参与者的反馈
-* 我们力争帮助大家完成这本经典的领读，帮助更多人有效地提升阅读能力
+<ul class="listing2">
+{% for cat in site.categories %}
+  <li class="listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}</li>
+{% for post in cat[1] %}
+  <li class="listing-item">
+  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+{% endfor %}
+</ul>
+
+<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
+<script language="javascript">
+$.fn.tagcloud.defaults = {
+    size: {start: 1, end: 1, unit: 'em'},
+      color: {start: '#f8e0e6', end: '#ff3333'}
+};
+
+$(function () {
+    $('#tag_cloud a').tagcloud();
+});
+</script>
+
+
 
 ###欢迎交流
 
