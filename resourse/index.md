@@ -34,10 +34,4 @@ $(function () {
 </script>
 
 
-
-###欢迎交流
-
-- 易仁永澄老师微信公众号：runwithcc
-- 幸福进化俱乐部官网：[http://upwith.me](http://upwith.me)
-
 <!--[![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }})-->
