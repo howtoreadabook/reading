@@ -1,6 +1,7 @@
 ---
 title: 资源
 layout: page
+comments: yes
 ---
 
 <div id='tag_cloud'>

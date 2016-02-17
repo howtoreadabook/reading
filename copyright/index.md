@@ -4,7 +4,11 @@ layout: page
 comments: no
 ---
 
-### 网站说明
+### 版权声明
+
+[![版权声明](http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/2.5/cn/)
+
+[本站](http://htrab.com)所涉及的所有录音、图片、脑图文档、文章
 
 * 幸福进化俱乐部发起的经典领读活动——共读《如何阅读一本书》的资源汇聚站
 * 这里包含易仁永澄老师的阅读领读、脑图、文字以及活动参与者的反馈
