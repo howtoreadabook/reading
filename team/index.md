@@ -1,8 +1,7 @@
 ---
-layout: page
 title: 团队
+layout: page
 comments: yes
-thread: 616
 ---
 
 任何一个活动都不可能通过一己之力完成，每一个人的贡献都成为后来者的福祉，让我们铭记为阅读推广做出巨大贡献的他们。
