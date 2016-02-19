@@ -1,5 +1,12 @@
-main{
+header{
 	display:none;
+}
+nav{
+    font-family: "Electrolize",sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0em 0em;
 }
 nav span{
 	float:left;
