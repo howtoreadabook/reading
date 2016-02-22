@@ -3,15 +3,7 @@ title: 资源
 layout: page
 comments: yes
 ---
-<nav>
-          <span><a title="首页" class="" href="/">首页</a></span>
-          <span><a title="资源" class="" href="/resourse/">资源</a></span>
-          <span><a title="贡献" class="" href="/team/">贡献</a></span>
-          <span><a title="版权" class="" href="/copyright/">版权</a></span>
-          <span><a title="联系" class="" href="/contract/">联系</a></span>
-        <!--  <span><a title="分类" class="" href="/categories/">分类</a></span>
-          <span><a title="标签" class="" href="/tags/">标签</a></span> -->
-        </nav>
+
 <div id='tag_cloud'>
 {% for cat in site.categories %}
 <a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a>
